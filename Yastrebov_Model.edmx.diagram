@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="86a84a8ff0334fde916e23b7edb5bdb2" Name="Diagram1">
+        <EntityTypeShape EntityType="Yastrebov_AutoserviceModel.Client" Width="1.5" PointX="8" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Yastrebov_AutoserviceModel.ClientService" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Yastrebov_AutoserviceModel.DocumentByService" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Yastrebov_AutoserviceModel.Gender" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Yastrebov_AutoserviceModel.Manufacturer" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Yastrebov_AutoserviceModel.Product" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Yastrebov_AutoserviceModel.ProductPhoto" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Yastrebov_AutoserviceModel.ProductSale" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Yastrebov_AutoserviceModel.Service" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Yastrebov_AutoserviceModel.ServicePhoto" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Yastrebov_AutoserviceModel.Tag" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Yastrebov_AutoserviceModel.TagOfClient" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="Yastrebov_AutoserviceModel.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="Yastrebov_AutoserviceModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="Yastrebov_AutoserviceModel.FK_ProductPhoto_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Yastrebov_AutoserviceModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Yastrebov_AutoserviceModel.FK_TagOfClient_Tag" ManuallyRouted="false" />
+        <AssociationConnector Association="Yastrebov_AutoserviceModel.AttachedProduct" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
